@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body.dark {
+}
+
+.header {
+  background-image: url('../assets/home_header.png');
+  background-size: cover;
+  min-height: 600px;
+  background-repeat: none;
+  @apply flex items-center justify-center text-3xl
+    font-medium text-white;
+
+  .inner {
+    @apply max-w-md;
+  }
+}
